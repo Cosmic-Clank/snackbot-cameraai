@@ -36,7 +36,7 @@ Return only the JSON object, no extra text.
 '''
 
         response = ollama.chat(
-            model='gemma3:4b',
+            model='gemma3:12b',
             messages=[{
                 'role': 'user',
                 'content': prompt,

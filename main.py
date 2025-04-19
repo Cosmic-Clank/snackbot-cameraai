@@ -8,7 +8,7 @@ from config import CONFIDENCE_THRESHOLD, DISTANCE_MIN, DISTANCE_MAX, TARGET_CLAS
 
 
 def start_api():
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
 
 
 # Start API server in background
